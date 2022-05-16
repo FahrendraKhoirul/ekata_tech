@@ -44,12 +44,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          {{-- <li><a class="nav-link scrollto" href="#about">Tentang</a></li> --}}
+          <li><a class="nav-link scrollto" href="#services">Jasa</a></li>
+          {{-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> --}}
+          {{-- <li><a class="nav-link scrollto" href="#team">Team</a></li> --}}
+          <li><a href="/blogs">Blog</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -67,8 +67,9 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Yuk Gabung</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+          <li><a class="getstarted scrollto" href="https://api.whatsapp.com/send/?phone=6289515792605&text&app_absent=0" 
+            target=”_blank”>Pesan Jasa</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -86,8 +87,10 @@
           <h2 data-aos="fade-up" data-aos-delay="400">Kami Memiliki Mentor, Programmer, Designer ahli dibidangnya</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started</span>
+              <a href="https://api.whatsapp.com/send/?phone=6289515792605&text&app_absent=0" 
+              target=”_blank”
+              class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Pesan Jasa</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -110,14 +113,14 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>Who We Are</h3>
-              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
-              <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+              <h3>Profil Kami</h3>
+              <h2>Kami merupakan Start-Up yang berdomisili di Malang, Jawa Timur.</h2>
+              <p>Info selengkapnya dan pemesanan klik tombol dibawah 
               </p>
               <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
+                <a href="https://api.whatsapp.com/send/?phone=6289515792605&text&app_absent=0" 
+                target=”_blank” class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Pesan Jasa</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -133,9 +136,10 @@
 
     </section><!-- End About Section -->
 
-    <!-- ======= Values Section ======= -->
+    <!-- ======= SEMENTARA DI COMMENT ======= -->
+    {{-- <!-- ======= Values Section ======= -->
     <section id="values" class="values">
-
+    
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -435,7 +439,8 @@
 
       </div>
 
-    </section><!-- End Features Section -->
+    </section><!-- End Features Section --> --}}
+    <!-- ======= END SEMENTARA DI COMMENT ======= -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -443,8 +448,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Services</h2>
-          <p>Veritatis et dolores facere numquam et praesentium</p>
+          <h2>Jasa dan Pelayanan Ekata-Tech</h2>
+          <p>Jasa dan Pelayanan yang Kami Tawarkan</p>
         </header>
 
         <div class="row gy-4">
@@ -452,54 +457,54 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-box blue">
               <i class="ri-discuss-line icon"></i>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Pembuatan Website</h3>
+              {{-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p> --}}
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box orange">
               <i class="ri-discuss-line icon"></i>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Pembuatan UI/UX</h3>
+              {{-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> --}}
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box green">
               <i class="ri-discuss-line icon"></i>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Front-End Flutter</h3>
+              {{-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p> --}}
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-box red">
               <i class="ri-discuss-line icon"></i>
-              <h3>Asperiores Commodi</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Fullstack Java</h3>
+              {{-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p> --}}
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-box purple">
               <i class="ri-discuss-line icon"></i>
-              <h3>Velit Doloremque.</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Custom Digital Invitation</h3>
+              {{-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p> --}}
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-box pink">
               <i class="ri-discuss-line icon"></i>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Foto Produk</h3>
+              {{-- <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p> --}}
+              {{-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> --}}
             </div>
           </div>
 
@@ -509,7 +514,7 @@
 
     </section><!-- End Services Section -->
 
-    <!-- ======= Pricing Section ======= -->
+    {{-- <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
 
       <div class="container" data-aos="fade-up">
@@ -699,16 +704,16 @@
 
       </div>
 
-    </section><!-- End F.A.Q Section -->
+    </section><!-- End F.A.Q Section --> --}}
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    {{-- <section id="portfolio" class="portfolio">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
           <h2>Portfolio</h2>
-          <p>Check our latest work</p>
+          <p>Portfolio Terbaru Kami</p>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -854,8 +859,8 @@
 
       </div>
 
-    </section><!-- End Portfolio Section -->
-
+    </section><!-- End Portfolio Section --> --}}
+{{-- 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
 
@@ -1072,16 +1077,16 @@
 
       </div>
 
-    </section><!-- End Team Section -->
+    </section><!-- End Team Section --> --}}
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    {{-- <section id="clients" class="clients">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Our Clients</h2>
-          <p>Temporibus omnis officia</p>
+          <h2>Klien Kami</h2>
+          <p>Klien yang Telah Menggunakan Jasa Kami</p>
         </header>
 
         <div class="clients-slider swiper">
@@ -1099,7 +1104,7 @@
         </div>
       </div>
 
-    </section><!-- End Clients Section -->
+    </section><!-- End Clients Section --> --}}
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
@@ -1108,37 +1113,27 @@
 
         <header class="section-header">
           <h2>Blog</h2>
-          <p>Recent posts form our Blog</p>
+          <p>Blog Terbaru Kami</p>
         </header>
 
         <div class="row">
 
           <div class="col-lg-4">
             <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">Tue, September 15</span>
-              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
-              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <div class="post-img"><img src="https://miro.medium.com/max/1200/1*yvz6FsBEh-JGN_miQIMEXA.jpeg" class="img-fluid" alt=""></div>
+              <h3 class="post-title">Mengapa Flutter Wajib Kamu Coba ?</h3>
+              <a href="/blogs/flutter" class="readmore stretched-link mt-auto"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">Fri, August 28</span>
-              <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
-              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              <div class="post-img"><img src="https://pasca.uma.ac.id/wp-content/uploads/2020/12/web-design8.jpg" class="img-fluid" alt=""></div>
+              <h3 class="post-title">Apa itu Website? Pengertian, Fungsi, dan Jenis!</h3>
+              <a href="/blogs/website" class="readmore stretched-link mt-auto"><span>Baca Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">Mon, July 11</span>
-              <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
-              <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
 
         </div>
 
@@ -1152,8 +1147,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+          <h2>Kontak</h2>
+          <p>Hubungi Kami</p>
         </header>
 
         <div class="row gy-4">
@@ -1164,22 +1159,22 @@
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street,<br>New York, NY 535022</p>
+                  <h3>Alamat</h3>
+                  <p>Malang<br>Jawa Timur</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  <h3>Hubungi Kami</h3>
+                  <p>+6289515792605</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
+                  <h3>Email Kami</h3>
+                  <p>ekata.tech@gmail.com</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -1237,7 +1232,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
-    <div class="footer-newsletter">
+    {{-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
@@ -1251,25 +1246,25 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo.png" alt="">
-              <span>FlexStart</span>
+              <img src="assets/img/logo1.png" alt="">
+              <span>Ekata-Tech</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Jasa dan Kursus Berkualitas untuk Pengembangan Skill IT Anda.</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> --}}
+              {{-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> --}}
+              <a href="https://www.instagram.com/ekata.tech/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/ekata-tech/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-
+{{-- 
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -1290,16 +1285,15 @@
               <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> --}}
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Malang, Jawa Timur<br>
+              Indonesia<br><br>
+              <strong>Whatsapp:</strong> +6289515792605<br>
+              {{-- <strong>Email:</strong> info@example.com<br> --}}
             </p>
 
           </div>
